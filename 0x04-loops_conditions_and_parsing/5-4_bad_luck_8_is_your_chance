@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
+# This script is displaying 4 as bad luck and 8 as good luck
 i="0"
 while [[ $i -lt 10 ]]
 do
