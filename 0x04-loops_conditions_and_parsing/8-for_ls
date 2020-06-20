@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying the content of the current directory
-nfiles=$(find | cut -d'-' -f 2)
+nfiles=$(ls | cut -d'-' -f 2)
 for nfl in $nfiles
+# shellcheck disable=SC2012
 do
     echo "$nfl"
 done
