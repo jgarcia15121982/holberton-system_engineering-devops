@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script is displaying a clock
+h="0"
+while [[ $h -lt 13 ]]
+do
+    m="1"
+    echo "Hour: $h"
+    while [[ $m -lt 60 ]]
+    do
+        echo "$m"
+        m=$((m+1))
+    done    
+    h=$((h+1))
+done
