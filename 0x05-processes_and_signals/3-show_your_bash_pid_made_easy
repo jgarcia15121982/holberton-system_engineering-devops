@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script that your Bash PID without ps
+pgrep bash -l
