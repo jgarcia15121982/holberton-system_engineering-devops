@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash  script that kills the process 7-highlander
+THERE_CAN_BE_ONLY_ONE=$(pgrep -f 7-highlander)
+kill -9 "$THERE_CAN_BE_ONLY_ONE"
