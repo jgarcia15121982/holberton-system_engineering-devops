@@ -1,0 +1,29 @@
+What is a server?:
+A server is a piece of hardware or a software dedicated to provide functionality for other programs or devices
+
+What is the role of the domain name?:
+The role of the domain name is to give an unique identifier and a easy way  to remember a web site.
+
+What type of DNS record www is in www.foobar.com?:
+Is a subdomain of foobar.com
+
+What is the role of the web server?:
+Is the software part that allows to the users access through internet to stored files in the servers.
+
+What is the role of the application server?:
+This piece of software gives functionality to web applications.
+
+What is the role of the database?:
+The role of the database is to store all information registered through web applications.
+
+What is the server using to communicate with the computer of the user requesting the website?:
+Is using the TCP/IP protocol.
+
+What is SPOF?
+SPOF stands for single point of failure. It means that a component of a system that would have an issue could make that a complete system fail. To avoid this, all the system components must be redundant.
+
+Downtime when maintenance needed.
+When a maintenance over a server is needed, it must exists a plan and a schedule of maintenance. Every kind of maintenance service must be executed after hours. Must be implemented a set of backups and make all updates needed.
+
+
+
