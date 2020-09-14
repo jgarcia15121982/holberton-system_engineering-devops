@@ -7,6 +7,7 @@ import requests
 import sys
 
 if __name__ == "__main__":
+
     resp_1 = requests.get("https://jsonplaceholder.typicode.com/users/" + 
                           sys.argv[1])
     usr_dict = json.loads(resp_1.text)
