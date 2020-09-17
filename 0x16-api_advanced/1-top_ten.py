@@ -7,7 +7,7 @@ def top_ten(subreddit):
     """function that queries the Reddit API
        and prints the titles of the first 10
        hot posts listed for a given subreddit"""
-    
+
     base_url = 'https://www.reddit.com/r/'
     url = base_url + subreddit + "/hot.json"
     credentials = {'User-Agent': "linux:1:v1.0 (by /u/svelezg_r)"}
